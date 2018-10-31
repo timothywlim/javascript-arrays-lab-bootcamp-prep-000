@@ -10,4 +10,9 @@ function destructivelyPrependKitten(name) {
   return kittens;
 }
 
+function destructivelyRemoveLastKitten() {
+  kittens.shift();
+  return kittens;
+}
+
 // Add your functions and code here
