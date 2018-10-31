@@ -20,4 +20,14 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
+function appendKitten(name) {
+  return [...kitten, name]
+}
+
+function prependKitten(name) {
+  reeturn [name, ...kitten]
+}
+
+
+
 // Add your functions and code here
